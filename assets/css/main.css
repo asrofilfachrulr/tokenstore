@@ -1,0 +1,41 @@
+@import "tailwindcss";
+
+:root {
+  --bg-primary-black: #171717;
+  --bg-overlay-black: #212121;
+  --bg-secondary-black: #1C1C1C;
+  --bdr-gray: #383838;
+  --clr-primary-green: #2A7252;
+}
+
+body {
+  background: var(--bg-primary-black);
+  color: white;
+}
+
+.text-accent {
+  color: var(--clr-primary-green);
+}
+
+.input-accent {
+  background: var(--bg-secondary-black);
+  border: 1px solid var(--bdr-gray);
+  display: block;
+  padding: 10px;
+  width: 100%;
+  color: white;
+}
+
+.btn-accent-primary {
+  background: var(--clr-primary-green);
+  padding: .5rem 1rem;
+  color: white;
+  border-radius: .25rem;
+}
+
+.btn-accent-transparent {
+  background: transparent;
+  padding: .5rem 1rem;
+  color: white;
+
+}
